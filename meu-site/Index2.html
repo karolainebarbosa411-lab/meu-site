@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#60767a;color:#f2f0f8;font-family:Arial;padding:25px 5%}
+h1{font-size:32px;margin-bottom:25px}
+.destaque{background:#0864df;padding:3px}
+.produtos{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.produto img{width:100%;aspect-ratio:.72;object-fit:cover}
+h2{font-size:18px;margin-top:15px}
+p{color:#c6d9d8;margin-top:8px}
+.botao{display:block;width:365px;max-width:100%;margin:45px auto;padding:27px;background:#f2f0f8;color:#172d30;text-align:center;text-decoration:none;font-weight:bold}
+.botao:hover{background:#dce6e4}
+@media(max-width:600px){.produtos{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+</head>
+<body>
+<h1>Shop - #60767a - <span class="destaque">#f2f0f8</span></h1>
+<div class="produtos">
+<div class="produto">
+<img src="images/jade-roller.jpg" alt="Jade Roller">
+<h2>Jade Roller</h2>
+<p>$28.00</p>
+</div>
+<div class="produto">
+<img src="images/spatula-cleanse-set.jpg" alt="Spatula Cleanse Set">
+<h2>Spatula Cleanse Set</h2>
+<p>$30.00</p>
+</div>
+<div class="produto">
+<img src="images/magnesium-supplements.jpg" alt="Magnesium Supplements">
+<h2>Magnesium+ Supplements</h2>
+<p>from $38.00</p>
+</div>
+</div>
+<a href="#produtos" class="botao">Shop Now</a>
+</body>
+</html>
